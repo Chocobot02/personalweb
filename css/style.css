@@ -422,17 +422,20 @@ i{
     color: orange;
     font-weight: bold;
 }
-/*wag muna to isama depende kung may iallagay pa
 
 .portfolio .box-content .box .content a{
     font-size: 20px;
     color: orange;
     text-decoration: underline;
+    border: 1px solid orange;
+    padding: 5px 5px;
+    border-radius: 15px;
+    background-color: white;
 }
 .portfolio .box-content .box .content a:hover{
     color: white;
+    background-color: orange;
 }
-*/
  .portfolio .box-content .box img, .grado .box-content .box img{
     height: 100%;width: 100%;
     object-fit: cover;
